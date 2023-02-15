@@ -104,12 +104,12 @@
     <h2 class="fs-title-post">Passo 3</h2>
       <h3 class="fs-subtitle-post">Nos conte outros detalhes</h3>
       <img src="imagens/dogcatsob.png" alt="cachorro" id="imagem-dogcatsob3">
-      <label class="labels-user" for="inputElement">Endereço:</label>
+     <label class="labels-user" for="inputElement">Local:</label>
       <input type="text" name="local_Found_Animal" placeholder="Onde ele foi achado?" />
       <label class="labels-user" for="inputElement">Observações (contato):</label>
       <input type="text" name="post_Description" placeholder="Observações + Informaçoes para contato" />
-      <label class="labels-user" for="inputElement">Local:</label>
-      <input type="text" name="local_Animal" placeholder="Onde o animal se encontra?" />
+      <label class="labels-user" for="inputElement">Endereço:</label>  
+      <input type="text" name="local_Animal" placeholder="Endereço de onde ele foi visto" />
       <input type="hidden" name="id_Usuario" value="{{Auth::user()->id}}"/>
       <input type="hidden" name="type_Post" value="achado">
 
